@@ -1,0 +1,13 @@
+<library path="lib/librlctrlnew_plugin">
+  <class name="rl_control_new/RLControlDIY" type="rl_control_new::RLControlDIY" base_class_type="nodelet::Nodelet">
+    <description> 
+      A node to add a value and republish.
+    </description>
+    </class>
+  <class name="rl_control_new/AnkleTestNodelet" type="rl_control_new::AnkleTestNodelet" base_class_type="nodelet::Nodelet">
+    <description> 
+      Real-time ParallelAnkle FK test nodelet.
+    </description>
+  </class>
+</library>
+

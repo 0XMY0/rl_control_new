@@ -1,0 +1,24 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/home/wsy/robot/tiangong/src/**",
+          "/home/wsy/Library/libtorch/include",                               // LibTorch 主 include
+          "/home/wsy/Library/libtorch/include/torch/csrc/api/include",        // C++ API 头
+          "/opt/ros/noetic/include",        
+          "/opt/ros/noetic/share/**/include"                                 // ROS1 默认 include
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "c++14",
+        "intelliSenseMode": "linux-gcc-x64"
+        // 可选：指定 compile_commands.json，效果更好
+
+      }
+    ],
+    "version": 4
+  }
+  

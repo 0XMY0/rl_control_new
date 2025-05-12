@@ -1,0 +1,9 @@
+<launch>
+  <!-- 启动 Nodelet Manager（如果你还没启动的话） -->
+  <node name="ankle_test_manager" pkg="nodelet" type="nodelet" args="manager" output="screen"/>
+
+  <!-- 加载你的 AnkleTestNodelet 插件 -->
+  <node name="ankle_test_nodelet" pkg="nodelet" type="nodelet" args="load rl_control_new/AnkleTestNodelet ankle_test_manager" output="screen">
+
+  </node>
+</launch>

@@ -1,0 +1,9 @@
+filter1:
+  type: "PassThrough"
+  lower_bould: [-1.0, -1.0]
+  upper_bound: [1.0, 1.0]
+
+filter2:
+  type: "PassThrough"
+  lower_bould: -20.0
+  upper_bound: 30.0
